@@ -4,99 +4,112 @@
 <head>
     <title>Video Game History</title>
     <style>
-    body {
-        background: rgb(125, 198, 205);
-        color: rgb(45, 45, 45);
-        padding: 10px;
-        font-family: arial;
-    }
-    #all-contents {
-        max-width: 800px;
-        margin: auto;
-    }
+        body {
+            background: rgb(125, 198, 205);
+            color: rgb(45, 45, 45);
+            padding: 10px;
+            font-family: arial;
+        }
 
-    /* navigation menu */
-    nav {
-        background: rgb(239, 80, 41);
-        margin: 0 auto;
-        display: flex;
-        padding: 10px;
-    }
-    h1 {
-        display: flex;
-        align-items: center;
-        color: white;
-        flex: 1;
-        margin: 0;
-    }
-    #nav-ul {
-        list-style-image: none;
-    }
-    .nav-li {
-        display: inline-block;
-        padding: 0 10px;
-    }
-    a {
-        text-decoration: none;
-        color: #fff;
-    }
+        #all-contents {
+            max-width: 800px;
+            margin: auto;
+        }
 
-    /* main container area beneath menu */
-    main {
-        background: rgb(245, 238, 219);
-        display: flex;
-    }
-    .sidebar {
-        margin-right: 25px;
-        padding: 10px;
-    }
-    .sidebar-img {
-        width: 200px;
-    }
-    .content {
-        flex: 1;
-        padding: 15px;
-    }
-    #interests {
-        border: 4px silver ridge;
-        padding: 8px;
-    }
-    h2, h3 {
-        margin: 0px;
-    }
-</style>
+        /* navigation menu */
+        nav {
+          
+            background: rgb(116, 112, 65);
+            margin: 0 auto;
+            margin-bottom:20px;
+            display: flex;
+            padding: 10px;
+        }
+
+        h1 {
+            display: flex;
+            align-items: center;
+            color: rgb(228, 123, 25);
+            flex: 1;
+            margin: 0;
+        }
+
+        #nav-ul {
+            list-style-image: none;
+        }
+
+        .nav-li {
+            display: inline-block;
+            padding: 0 10px;
+        }
+
+        a {
+            text-decoration: none;
+            color: rgb(58, 172, 73);
+        }
+
+        /* main container area beneath menu */
+        main {
+            background: rgb(187, 169, 119);
+            display: flex;
+        }
+
+        .sidebar {
+            margin-right: 25px;
+            padding: 10px;
+        }
+
+        .sidebar-img {
+            width: 300px;
+        }
+
+        .content {
+            flex: 1;
+            padding: 15px;
+        }
+
+        #interests {
+            border: 4px silver ridge;
+            padding: 8px;
+        }
+
+        h2,
+        h3 {
+            margin: 0px;
+        }
+    </style>
 
 </head>
 
 <body>
     <!-- All content goes here -->
-    <div>
+    <div id="all-contents">
         <nav>
-            <nav>
-                <h1>Video Game Industry</h1>
-                <ul>
-                    <li>
-                      <a href="index.html"> Home </a>
-                    </li>
-                    <li>
-                      <a href="Portfolio.html"> Portfolio </a>
-                    </li>
-                </ul>
-            </nav>
+            <h1>Video Game Industry</h1>
+            <ul id="nav-ul">
+                <li class=nav-li>
+                    <a href="index.html"> Home </a>
+                </li>
+                <li class="nav-li">
+                    <a href="portfolio.html"> Portfolio </a>
+                </li>
+            </ul>
         </nav>
 
         <main>
             <!-- Sidebar section -->
-            <div>
-             
+            <div class="sidebar">
+                <img class="sidebar-img"
+                    src="https://2bfc59ee-a-62cb3a1a-s-sites.googlegroups.com/site/consolegamesv3/history-of-console-video-game/images.png?attachauth=ANoY7cpIh2RYI_Q68ip7d86pKsZ1PSzj2MlCSUIOwIhkf0TZczcczrOJdDfAMZUxjIUs0oSYDSC_Q01yM6DWjyZeGuW0yYSPRCiMKRx3tOB-MDPrBKXLHU9UgdIQ001QC4qql0Va1_zeIiyz6nwC9NNaLeYS1hWHoAC7ydum1nE-vpDnjjLPEpBtHsYJUueuinoI0eroLhjHvYYtS2GieaBfOMvhk07KfiVjUR23UfUqdz4THZXy_r-QDweZ1UT9UZ-_LDpmQtUk&attredirects=0">
             </div>
 
+
             <!-- Content section -->
-            <div>
+            <div class="content">
                 <h2>Video Games are Expenxive</h2>
                 <p>Every games has it's own cost</p>
-                <h3>Interests</h3>
-                <ul>
+                <!--Interests section -->
+                <div id="interests">
                     <li>People have their own consoles</li>
                     <li>All games has new features</li>
                     <li>People need more money to buy them</li>
@@ -106,14 +119,4 @@
         </main>
     </div>
 </body>
-<!-- Interests section -->
-<div>
-    
-</div>
-<!-- Sidebar section -->
-<div>
-    <img src="https://2bfc59ee-a-62cb3a1a-s-sites.googlegroups.com/site/consolegamesv3/history-of-console-video-game/images.png?attachauth=ANoY7cpIh2RYI_Q68ip7d86pKsZ1PSzj2MlCSUIOwIhkf0TZczcczrOJdDfAMZUxjIUs0oSYDSC_Q01yM6DWjyZeGuW0yYSPRCiMKRx3tOB-MDPrBKXLHU9UgdIQ001QC4qql0Va1_zeIiyz6nwC9NNaLeYS1hWHoAC7ydum1nE-vpDnjjLPEpBtHsYJUueuinoI0eroLhjHvYYtS2GieaBfOMvhk07KfiVjUR23UfUqdz4THZXy_r-QDweZ1UT9UZ-_LDpmQtUk&attredirects=0"
-<div id="all-contents">
-    <div class="sidebar"></div>
-</div>
 </html>
